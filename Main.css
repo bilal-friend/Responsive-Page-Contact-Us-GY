@@ -167,6 +167,7 @@ textarea:valid + span {
     display: flex;
     flex-direction: column-reverse;
     overflow: hidden;
+    padding: 10px;
   }
   .container .containerForm,
   .container .containerInfo {
@@ -181,7 +182,6 @@ textarea:valid + span {
     width: 100%;
   }
   .container .containerInfo {
-    transform: translate(-21px, 41px);
     width: 127%;
   }
 }
